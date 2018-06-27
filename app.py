@@ -1,6 +1,7 @@
 import requests
 from flask import Flask
 from flask import render_template
+from config import Configuration
 
 # create Flask app
 app = Flask(__name__)
