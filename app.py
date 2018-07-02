@@ -18,7 +18,7 @@ def rest_request_example():
 	while i < 10:
 	print("Je ne dois pas poser une question sans lever la main")
 	i = i +1
-        print (requests.get("http://129.157.179.180:3000/shield/45/i/blue/fmarsaud").text)
+        print (requests.get("http://129.157.179.180:3000/shield/45/"+i+"/blue/fmarsaud").text)
 
 rest_request_example()
 	
