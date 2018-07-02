@@ -13,7 +13,7 @@ def home():
     return render_template('home.html')
 
 def rest_request_example():
-    print (requests.get("http://ip.jsontest.com/").text)
+    print (requests.get("http://129.157.179.180:3000/shield/33/45/blue/fmarsaud").text)
 
 rest_request_example()
 	
