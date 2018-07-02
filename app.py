@@ -16,7 +16,7 @@ def rest_request_example():
 	print (requests.get("http://ip.jsontest.com/").text)
 	i = 0
 	while i < 10:
-	i += 1 # On incrémente i de 1 à chaque tour de boucle
+	i = i + 1 # On incrémente i de 1 à chaque tour de boucle
         print (requests.get("http://129.157.179.180:3000/fighters/45/"+i+"/blue/fmarsaud").text)
 
 rest_request_example()
