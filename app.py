@@ -13,6 +13,7 @@ def home():
     return render_template('home.html')
 
 def rest_request_example():
+	print (requests.get("http://ip.jsontest.com/").text)
 	i = 0
 	while i < 10:
 	print("Je ne dois pas poser une question sans lever la main")
